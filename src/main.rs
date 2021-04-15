@@ -1,6 +1,6 @@
-use algorithms::linked_list::List;
-use algorithms::linked_list::List::{Nil, Cons};
-use algorithms::linked_list;
+use rust_algorithms::linked_list::List;
+use rust_algorithms::linked_list::List::{Nil, Cons};
+use rust_algorithms::linked_list;
 
 /// True if the list contains a pair of different elements that add to `total`.
 fn has_pair_adding_to(total : i32, xs : &List<i32>) -> bool {
